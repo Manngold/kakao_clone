@@ -1,0 +1,22 @@
+body,
+html {
+  height: 100%;
+}
+.father {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  height: 100%;
+  flex-wrap: wrap-reverse;
+}
+.box {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

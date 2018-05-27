@@ -1,0 +1,15 @@
+.box {
+  background-color: red;
+  font-size: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+.box:hover {
+  background-color: pink;
+}
+.box:active {
+  background-color: green;
+}
+/* .box:focus {
+  background-color: blue;
+} */
