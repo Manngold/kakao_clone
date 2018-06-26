@@ -1,0 +1,31 @@
+html,
+body{
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #54381B;
+    border: 0;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.header_title{
+    margin: 0;
+}
+
+.header_edit,
+.header_title{
+    margin-right: auto;
+    background-color: #54381B;
+    color: white;
+}
+i{
+    margin-left 10px;
+}
