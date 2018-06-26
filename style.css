@@ -2,6 +2,7 @@ html,
 body{
     margin: 0;
     font-family: 'Open Sans';
+    font-size: 14px;
 }
 
 .header{
@@ -13,7 +14,10 @@ body{
     box-sizing: border-box;
     padding: 10px 5px;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 400;
+    position: sticky;
+    width: 100%;
+    top: 0;
 }
 
 .header_title{
@@ -24,8 +28,51 @@ body{
 .header_title{
     margin-right: auto;
     background-color: #54381B;
-    color: white;
+    color: rgba(255, 255, 255, 0.877);
 }
-i{
-    margin-left 10px;
+
+.chat{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    box-sizing:border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.chat_avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.chat_username{
+   display: block;
+   font-weight: 600;
+}
+
+.chat_text{
+    flex-grow: 2;
+    margin-left: 20px;
+}
+
+.chat_preview,
+.chat_date{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.chat_date {
+    font-size: 10px;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    position: sticky;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 1);
+    padding: 20px 0px;
+    bottom: 0;
+}
+.footer_text{
+    margin-left: 3px;
 }
